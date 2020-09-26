@@ -27,6 +27,12 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
 }
+.title{
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+  
+}
 
 main {
     display: flex;
@@ -53,10 +59,9 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -65,7 +70,13 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+article{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 h2 {
     font-size: 1.8rem;
@@ -83,7 +94,10 @@ h2 {
 header img {
     height: var(--header-height);
 }
-
+.lyrics{
+    font-size: 1.7em;
+    background-color: rgba(255, 255, 255, 0.377);
+}
 
 
 content {
@@ -103,6 +117,14 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+.hidden{
+    display: none;
+}
+body{
+    background-position: center;
+    background-size: cover;
+    transition: .2s ease-in-out;
 }
   
   @keyframes pulse {
