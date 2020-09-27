@@ -33,8 +33,20 @@ body {
     font-size: 3em;
   
 }
+#inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-main {
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,6 +129,12 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+button {
+    background-color: rgb(243, 152, 228);
+    border-style: groove;
+    
+    
 }
 .hidden{
     display: none;
