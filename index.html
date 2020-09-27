@@ -9,81 +9,74 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
-    <title>Document</title>
+    <title>Madlibs Project</title>
 </head>
 
 <body>
+
+
     <header>
-        <p>
-        </p>
+
+        <span class ="title">Mad Libs</span>
+
         <div class="gutter-right logo">
-            <span class ="title">Mad Lib</span>
             <img src="assets/big-logo.png"/>
         </div>
+
     </header>
-  
 
 
-    <section id="inputs" class="inputs">
-        
-            <input id="noun-rainbow" placeholder="Noun" type="text"/>
-       
-            <input id="noun-butterfly" placeholder="Noun" type="text"/>
-      
-            <input id="verb-can-do" placeholder="Verb" type="text"/>
-     
-            <input id="adj-reading" placeholder="Adjective" type="text"/>
-            
+
+    <article>
+
+
+
+
+        <section class="left-column inputs">
+
+            <span class="inputs-title">Please enter some words below!</span>
+
+            <input type="text" id="noun1"/>
+
+            <input type="text" id="noun2"/>
+
+            <input type="text" id="verb"/>
+
+            <input type="text" id="adj"/>
+
+        </section>
+    
+
+
+
+
+        <section class="right-column hidden">
+
             <p>
-                <button id="submit-button">Submit!</button>
+            Reading <span class="rainbow-word">Rainbow</span>!
+            Butterfly in the sky, I can go twice as high
+            Take a look, it's in a book,
+            A Reading <span class="rainbow-word">Rainbow</span>!
+            I can go anywhere
+            Friends to know, and ways to grow
+            A Reading <span class="rainbow-word">Rainbow</span>!
             </p>
 
-    </section>
 
-
-
-    <article id="lyrics" class="lyrics hidden">
-<span>
-            <span id="adj1">Reading</span> <span id="rainbow1">Rainbow</span>
-
-            <span id="butterfly1">Butterfly</span> in the sky, 
-        <p>
-
-            I <span id="can-go1">can go</span> twice as high
-        </p>
-        <p>
-            Take a look, it's in a book,
-        </p>   
-             A <span id="adj1">Reading</span> <span id="rainbow2">Rainbow</span>!
-        <p>   
-            I can <span id="can-go"> can go </span> anywhere
-        </p> 
-        <p>  
-            Friends to know, and ways to grow
-        </p>  
-        <p>
-            A <span id="adj2">Reading</span> <span id="rainbow3">Rainbow</span>!
-        </p>
-        <p>
+            <p>
             I can be anything
-        </p>
-        <p>   
             Take a look, it's in a book
-        </p> 
-        <p>
-             A <span id="adj3">Reading</span> <span id="rainbow4">Rainbow</span>
-        </p>
-        <p>
-            <span id="adj4">Reading</span> <span id="rainbow5">Rainbow</span>!
-        </p>
-        <p id="ooh">
-            Ooooooooooh!
-        </p>
-    </span>
+            A Reading <span class="rainbow-word">Rainbow</span>
+            Reading <span class="rainbow-word">Rainbow</span>!
+            Ooooooooooh
+            </p>
+
+        </section>
+
+
+
+
     </article>
-
-
-
 
 
     <script type="module" src="app.js"></script>
